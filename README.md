@@ -47,4 +47,4 @@ The IT asset management system is based on the following procedure:
 
 ## Visual Highlights
 
-![summary_chart]("images/Total_Asset_Cost_Dept.png")
+![summary_chart](images/Total_Asset_Cost_Dept.png)
