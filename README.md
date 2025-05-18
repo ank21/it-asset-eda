@@ -45,3 +45,6 @@ The IT asset management system is based on the following procedure:
 - E-waste rates greatly increased by `2023` but observed a dramatic decline after mid of `2023`.
 - There is a strong correlation between the cost of the asset and the lifespan, indicating that cheaper assets tend to have shorter lifecycles.
 
+## Visual Highlights
+
+![summary_chart]("/images/Total_Asset_Cost_Dept.png")
