@@ -41,10 +41,26 @@ The IT asset management system is based on the following procedure:
 ## Key Insights
 - **Right-skewed asset cost distribution**, with most assets under `$2500` and a few reaching `$10,000`.
 - `Social Work` has the highest overall asset spend and with `DOVS` being the lowest (Difference of almost `$145,000`).
-- `Laptops` were the most frequently e-wasted with `Printers` being the least. The proportional gap between the two categories is `5%` of all e-wasted assets.
+- `Laptops`, `Monitors` and `Tablets` were the most frequently e-wasted and had shorter lifecycle durations, with `Printers` and `Servers` having the longest average lifecycle. `Printers` also displayed the widest usage range indicating some units remain in service significantly longer than others.
 - E-waste rates greatly increased by `2023` but observed a dramatic decline after mid of `2023`.
-- There is a strong correlation between the cost of the asset and the lifespan, indicating that cheaper assets tend to have shorter lifecycles.
+- There is a strong correlation between the cost of the asset and the lifespan, indicating that cheaper assets tend to have shorter lifecycles. Additionally, a significant number of assets are high cost while having short lifespans.
 
 ## Visual Highlights
 
 ![summary_chart](images/Total_Asset_Cost_Dept.png)
+
+- Department level cost bar chart breaking down the total spending across each department over the 5 year period.
+
+![summary_chart](images/Usage_By_Type.png)
+
+- Boxplot showing the distribution of how long different asset types were in use before being marked as e-waste.
+
+![summary_chart](images/Cost_v_Duration.png)
+
+- Scatterplot showing the distribution of assets based on their lifespan and cost to determine any correlation between the two categories.
+
+## Key Recommendations
+- **Procurement optimization**: Reassess procurement strategy for high-cost, short-duration assets as a significant number of the assets are high cost and shorter in lifecycle. It is imperative to determine the factors can be contributing as the cost for these assets do not reflect their expected lifecycle. A recommendation for conducting a review on these assets, such as their usage, maintenence procedures, and manufacturer will aid in determining a strategy to mitigate the expenses.
+- **Departmental management assessment**: Evaluate the high asset expenses in certain departments such as `Social Work`, and cross analyze with a review of efficient departments, such as `DOVS`, to determine any potential strategies that can be implemented to other departments to cut down on costs and e-waste.
+- **Effective e-waste strategy**: The current e-waste management strategy appears to be effective as the number of e-waste appears to be reducing rapidly since the mid of `2023`, likely as a response due to the high e-waste usage prior to that period. The number of e-wasted assets is approaching the levels of late `2020` (which displayed the lowest rates in the recorded period). The recommendation is to maintain this strategy for the future while monitoring for any changes.
+- **Frequent end-user asset wastage**: `Laptops`, `Monitors` and `Tablets` have the highest e-waste rates compared to shared-office assets such as `Printers` or infrastructure assets such as `Servers`. This indicates that these devices typically have a regular upgrade cycle. The count of each type of assets are similar, so the large discrepancy in lifespans most likely has another factor contributing to the high e-waste rates that need further investigation. Information regarding current protocol for these devices to be decommissioned would assist in providing a recommendation. If the current process prioritizes early retirement for various factors, it is worth addressing by utilizing means such as **tracking the device health** through performance monitoring tools to determine if the devices are being decommissioned prematurely.      
